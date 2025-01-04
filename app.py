@@ -12,8 +12,8 @@ background_image_path = 'bkg.jpg'  # Change this to your image file path
 
 # Load the data from the Excel file
 @st.cache_data
-def load_data(file_path):
-    return pd.read_excel(file_path)
+# def load_data(file_path):
+#     return pd.read_excel(file_path)
 
 # Add a new user to the dataset
 def add_new_user(email, name, scores_data):
@@ -111,7 +111,7 @@ def is_valid_email(email):
 # Main function to run the Streamlit app
 def main():
     # Load the users data and score data
-    scores_data = load_data(scores_file_path)
+    scores_data = pd.read_excel(scores_file_path)
 
     # Show login or sign-up form
     st.header("Login")
