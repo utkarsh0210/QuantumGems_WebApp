@@ -6,7 +6,7 @@ import re
 
 global scores_data, user_data
 # Path to the Excel file for users' data and scores
-scores_file_path = 'E:/QuantumGems/scores.xlsx'
+#scores_file_path = 'E:/QuantumGems/scores.xlsx'
 
 background_image_path = 'E:/QuantumGems/bkg.jpg'  # Change this to your image file path
 
@@ -81,7 +81,7 @@ def insert_dummy_data():
     conn.close()
 
 # Run this function once to insert dummy data
-insert_dummy_data()
+#insert_dummy_data()
 
 
 # Function to get base64 encoding of the background image
