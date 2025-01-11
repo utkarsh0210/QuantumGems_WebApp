@@ -8,7 +8,7 @@ global scores_data, user_data
 # Path to the Excel file for users' data and scores
 #scores_file_path = 'E:/QuantumGems/scores.xlsx'
 
-background_image_path = 'bkg.jpg'  # Change this to your image file path
+background_image_path = 'bkg1.jpg'  # Change this to your image file path
 
 # Database connection
 def get_db_connection():
